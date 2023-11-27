@@ -4,7 +4,8 @@ import 'package:flutter_clean_architecture/src/auth/domain/entities/user.dart';
 abstract class AuthenticationRepository {
   const AuthenticationRepository();
   //! result future is a typedef for Future<Either< Failure,T >  >
- ResultFuture<void> createUser({
+  // this will be creted as a usecase
+  VoidResultFuture createUser({
     required String createdAt,
     required String name,
     required String avatar,

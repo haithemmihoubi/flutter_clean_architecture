@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: const  Center(
         child: Text(
-          'Hello, world! test me',
+          'hello clean architecture',
           style:  TextStyle(fontSize: 40,color: Colors.deepPurple),
         ),
       )
