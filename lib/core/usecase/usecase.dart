@@ -1,11 +1,11 @@
 import 'package:flutter_clean_architecture/core/utils/typedef.dart';
 
 
-abstract class UsecaseWithParams<Type, Params> {
-  const  UsecaseWithParams();
+abstract class UseCaseWithParams<Type, Params> {
+  const  UseCaseWithParams();
  ResultFuture<Type> call(Params params);
 }
-abstract class UseCaseNoParams<Type> {
-  const UseCaseNoParams();
+abstract class UseCaseWithoutParams<Type> {
+  const UseCaseWithoutParams();
  ResultFuture<Type> call();
 }

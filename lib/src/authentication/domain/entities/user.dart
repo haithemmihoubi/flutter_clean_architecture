@@ -7,6 +7,8 @@ class User  extends Equatable  {
     required this.name,
     required this.avatar,
   });
+// empty constructor
+  const User.empty() : this(id: 0, createdAt: '', name: '', avatar: '');
 
   final String avatar ;
   final String createdAt;
