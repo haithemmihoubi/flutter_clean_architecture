@@ -9,11 +9,9 @@ import 'package:flutter_clean_architecture/src/authentication/domain/repositorie
 import 'package:flutter_clean_architecture/src/authentication/domain/usecases/create_user.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-class MockAuthRepo extends Mock implements AuthenticationRepository {
 
+import 'authentication_repository.mock.dart';
 
-
-}
 
 
 
