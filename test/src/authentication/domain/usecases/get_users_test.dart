@@ -1,6 +1,5 @@
   import 'package:dartz/dartz.dart';
 import 'package:flutter_clean_architecture/src/authentication/domain/entities/user.dart';
-import 'package:flutter_clean_architecture/src/authentication/domain/repositories/auth_repository.dart';
 import 'package:flutter_clean_architecture/src/authentication/domain/usecases/create_user.dart';
 import 'package:flutter_clean_architecture/src/authentication/domain/usecases/get_users.dart';
 import 'package:flutter_test/flutter_test.dart';

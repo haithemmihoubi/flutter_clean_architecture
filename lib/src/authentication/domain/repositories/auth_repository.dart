@@ -4,6 +4,7 @@ import '../entities/user.dart';
 
 
 abstract class AuthenticationRepository {
+  //
   const AuthenticationRepository();
   //! result future is a typedef for Future<Either< Failure,T >  >
   // this will be creted as a usecase
